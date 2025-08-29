@@ -10,5 +10,4 @@ public class FindSumOfNumber {
         }
         return sum;
     }
-
 }

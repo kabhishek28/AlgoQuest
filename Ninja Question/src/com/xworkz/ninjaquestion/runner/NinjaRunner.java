@@ -25,9 +25,12 @@ public class NinjaRunner {
         Armstrong armstrong = new Armstrong();
         System.out.println( armstrong.checkIsArmStrongOrNot(153));
 
+        SumOfEvenAndOdd sum = new SumOfEvenAndOdd();
+        sum.makeSum(125);
 
-        Fibonacci fibonacci = new Fibonacci();
-        System.out.println(fibonacci.fibo(3));
+
+//        Fibonacci fibonacci = new Fibonacci();
+//        System.out.println(fibonacci.fibo(3));
     }
 
 

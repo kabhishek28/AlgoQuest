@@ -28,9 +28,6 @@ public class NinjaRunner {
         SumOfEvenAndOdd sum = new SumOfEvenAndOdd();
         sum.makeSum(125);
 
-
-//        Fibonacci fibonacci = new Fibonacci();
-//        System.out.println(fibonacci.fibo(3));
     }
 
 

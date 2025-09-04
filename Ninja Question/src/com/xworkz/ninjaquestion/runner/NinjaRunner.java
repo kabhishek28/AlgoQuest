@@ -28,7 +28,7 @@ public class NinjaRunner {
         SumOfEvenAndOdd sum = new SumOfEvenAndOdd();
         sum.makeSum(125);
 
+        PatternMatchingString patternMatchingString = new PatternMatchingString();
+        System.out.println("Pattern Matching : "+ patternMatchingString.matchString("Abhishek","she"));
     }
-
-
 }

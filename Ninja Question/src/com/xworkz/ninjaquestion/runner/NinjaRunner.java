@@ -10,6 +10,7 @@ public class NinjaRunner {
 
         AddDigits addDigits = new AddDigits();
 
+
         System.out.println("Add Digits : "+addDigits.addDigits(2));
 
         Palindrome palindrome = new Palindrome();

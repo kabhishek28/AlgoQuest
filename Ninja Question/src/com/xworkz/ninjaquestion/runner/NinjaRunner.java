@@ -29,6 +29,6 @@ public class NinjaRunner {
         sum.makeSum(125);
 
         PatternMatchingString patternMatchingString = new PatternMatchingString();
-        System.out.println("Pattern Matching : "+ patternMatchingString.matchString("Abhishek","she"));
+        System.out.println("Pattern Matching : "+ patternMatchingString.matchString("Abhishek","shee"));
     }
 }

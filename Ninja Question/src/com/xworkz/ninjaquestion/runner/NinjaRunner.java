@@ -9,6 +9,7 @@ public class NinjaRunner {
         System.out.println("Find the sum of the digits of a number. = "+findSumOfNumber.sumOfNumber(111));
 
         AddDigits addDigits = new AddDigits();
+
         System.out.println("Add Digits : "+addDigits.addDigits(2));
 
         Palindrome palindrome = new Palindrome();

@@ -32,5 +32,10 @@ public class NinjaRunner {
 
         PatternMatchingString patternMatchingString = new PatternMatchingString();
         System.out.println("Pattern Matching : "+ patternMatchingString.matchString("Abhishek","shee"));
+
+        SwapNoWithOutTempVariable swapNoWithOutTempVariable = new SwapNoWithOutTempVariable();
+        int a = 3 , b = 2;
+        System.out.println("Swap No WithOut Temp Variable before" + a +"======="+b);
+        swapNoWithOutTempVariable.swap(a,b);
     }
 }

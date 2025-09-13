@@ -5,7 +5,7 @@ public class SwapNoWithOutTempVariable {
         a = a+b;
         b = a-b;
         a = a-b;
-        System.out.println(a +"======="+b);
+        System.out.println("Swap No WithOut Temp Variable after " + a +"======="+b);
 
     }
 }

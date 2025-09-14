@@ -42,5 +42,8 @@ public class NinjaRunner {
         int c = 3 , d = 2;
         System.out.println("Swap No WithOut Temp Variable before" + a +"======="+b);
         swapNoWithOutTempVariableWithTemp.swap(c,d);
+
+        Pattren pattren = new Pattren();
+        pattren.print();
     }
 }

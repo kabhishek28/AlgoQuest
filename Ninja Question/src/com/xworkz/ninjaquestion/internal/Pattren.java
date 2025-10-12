@@ -10,4 +10,13 @@ public class Pattren {
         }
     }
 
+    public void print1(){
+        for(int i = 0 ; i < 5 ; i++){
+            System.out.println();
+            for(int j = 0 ; j<i ;j++){
+                System.out.print("*");
+            }
+        }
+    }
+
 }

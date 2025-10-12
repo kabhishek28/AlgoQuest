@@ -45,5 +45,6 @@ public class NinjaRunner {
 
         Pattren pattren = new Pattren();
         pattren.print();
+        pattren.print1();
     }
 }

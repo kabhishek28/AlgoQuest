@@ -19,4 +19,13 @@ public class Pattren {
         }
     }
 
+    public void print2(){
+        for(int i = 0 ; i < 5 ; i++){
+            System.out.println();
+            for(int j = 0 ; j<=5-i ;j++){
+                System.out.print("*");
+            }
+        }
+    }
+
 }

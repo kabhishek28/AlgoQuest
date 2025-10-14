@@ -60,5 +60,10 @@ public class NinjaRunner {
         System.out.println("\n----------------------------");
         LeapYear leapYear = new LeapYear();
         leapYear.checkLeapYear(2024);
+        System.out.println("\n----------------------------");
+        AverageOfNumber averageOfNumber = new AverageOfNumber();
+        int[] nums = {10,20,30,40};
+        averageOfNumber.findAverage(nums);
+
     }
 }

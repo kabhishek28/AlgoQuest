@@ -55,7 +55,10 @@ public class NinjaRunner {
         pattren.print4();
         System.out.println("\n----------------------------");
         PerfectNumber perfectNumber = new PerfectNumber();
-        String result = perfectNumber.checkNumberIsPerfect(6);
+        String result = perfectNumber.checkNumberIsPerfect(12);
         System.out.println("Checking Whether Number Is Perfect Or Not :" + result);
+        System.out.println("\n----------------------------");
+        LeapYear leapYear = new LeapYear();
+        leapYear.checkLeapYear(2024);
     }
 }

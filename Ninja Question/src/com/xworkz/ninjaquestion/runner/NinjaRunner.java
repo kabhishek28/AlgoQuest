@@ -54,5 +54,8 @@ public class NinjaRunner {
         System.out.println("\n----------------------------");
         pattren.print4();
         System.out.println("\n----------------------------");
+        PerfectNumber perfectNumber = new PerfectNumber();
+        String result = perfectNumber.checkNumberIsPerfect(6);
+        System.out.println("Checking Whether Number Is Perfect Or Not :" + result);
     }
 }

@@ -52,5 +52,7 @@ public class NinjaRunner {
         System.out.println("\n----------------------------");
         pattren.print3();
         System.out.println("\n----------------------------");
+        pattren.print4();
+        System.out.println("\n----------------------------");
     }
 }
